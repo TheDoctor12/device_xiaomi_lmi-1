@@ -154,6 +154,10 @@ PRODUCT_PACKAGES += \
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
