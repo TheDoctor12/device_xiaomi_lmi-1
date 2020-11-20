@@ -150,7 +150,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.xiaomi_kona
+    android.hardware.power-service.xiaomi_kona
 
 # PowerStats
 PRODUCT_PACKAGES += \
