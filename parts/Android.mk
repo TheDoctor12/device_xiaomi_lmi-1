@@ -1,9 +1,3 @@
-#
-# Copyright (C) 2017-2020 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -23,10 +17,8 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.core_core \
     androidx.preference_preference
 
-
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    vendor.xiaomi.hardware.displayfeature-V1.0-java \
-    vendor.xiaomi.hardware.touchfeature-V1.0-java 
+    vendor.xiaomi.hardware.displayfeature-V1.0-java
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
