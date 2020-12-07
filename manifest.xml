@@ -14,16 +14,7 @@
         </interface>
         <fqname>@1.0::IFingerprintInscreen/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>vendor.lineage.powershare</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IPowerShare</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IPowerShare/default</fqname>
-    </hal>
+
     <hal format="hidl">
         <name>vendor.qti.hardware.radio.atcmdfwd</name>
         <transport>hwbinder</transport>
@@ -33,6 +24,15 @@
             <instance>AtCmdFwdService</instance>
         </interface>
         <fqname>@1.0::IAtCmdFwd/AtCmdFwdService</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.lineage.trust</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IUsbRestrict</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <system-sdk>
         <version>28</version>
