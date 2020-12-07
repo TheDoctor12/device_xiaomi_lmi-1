@@ -139,6 +139,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # overlay-remove
 PRODUCT_PACKAGES += \
     DevicesOverlay \
+    FrameworksResTarget \
     DevicesAndroidOverlay
 
 # Permissions
@@ -156,7 +157,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    vendor/nxp/opensource/sn100x \
+    vendor/nxp/opensource/sn100x
 
 # Telephony
 PRODUCT_PACKAGES += \
