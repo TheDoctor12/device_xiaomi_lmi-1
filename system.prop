@@ -15,7 +15,6 @@ ro.bluetooth.library_name=libbluetooth_qti.so
 camera.disable_zsl_mode=true
 
 # Display
-ro.sf.lcd_density=440 
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
@@ -34,7 +33,7 @@ vendor.display.use_smooth_motion=1
 ro.vendor.dfps.enable=true
 persist.fod.modified.dc_status=false
 sys.displayfeature.hbm.enable=true
-
+debug.cpurend.vsync=false
 # CNE
 persist.vendor.cne.feature=1
 
