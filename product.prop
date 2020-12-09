@@ -15,3 +15,7 @@ persist.vendor.bt.a2dp.aac_whitelist=false
 #Camera Support
 vendor.camera.aux.packagelist=org.lineageos.snap,com.google.android.GoogleCamera
 ro.control_privapp_permissions=log
+
+# Recorder
+persist.vendor.audio.fluence.voicerec=true
+persist.vendor.audio.fluence.audiorec=true
