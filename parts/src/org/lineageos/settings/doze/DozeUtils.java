@@ -17,37 +17,34 @@
 
 package org.lineageos.settings.doze;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.hardware.display.AmbientDisplayConfiguration;
-import android.hardware.Sensor;
-import android.hardware.SensorManager;
-import android.os.UserHandle;
-import android.provider.Settings;
-import android.util.Log;
-import androidx.preference.PreferenceManager;
-
 import static android.provider.Settings.Secure.DOZE_ALWAYS_ON;
 import static android.provider.Settings.Secure.DOZE_ENABLED;
 
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
+import android.hardware.display.AmbientDisplayConfiguration;
+import android.os.UserHandle;
+import android.provider.Settings;
+import android.util.Log;
+
+import androidx.preference.PreferenceManager;
+
 public final class DozeUtils {
 
-    private static final String TAG = "DozeUtils";
-    private static final boolean DEBUG = false;
-
-    private static final String DOZE_INTENT = "com.android.systemui.doze.pulse";
-
     protected static final String ALWAYS_ON_DISPLAY = "always_on_display";
-
     protected static final String CATEG_PICKUP_SENSOR = "pickup_sensor";
     protected static final String CATEG_PROX_SENSOR = "proximity_sensor";
-
     protected static final String GESTURE_PICK_UP_KEY = "gesture_pick_up";
     protected static final String GESTURE_HAND_WAVE_KEY = "gesture_hand_wave";
     protected static final String GESTURE_POCKET_KEY = "gesture_pocket";
+    private static final String TAG = "DozeUtils";
+    private static final boolean DEBUG = false;
+    private static final String DOZE_INTENT = "com.android.systemui.doze.pulse";
 
-    protected static void startService(Context context) {
+    public static void startService(Context context) {
         if (DEBUG) Log.d(TAG, "Starting service");
         context.startServiceAsUser(new Intent(context, DozeService.class),
                 UserHandle.CURRENT);
@@ -59,17 +56,12 @@ public final class DozeUtils {
                 UserHandle.CURRENT);
     }
 
-    protected static void checkDozeService(Context context) {
-        if (isDozeEnabled(context) && !isAlwaysOnEnabled(context) && areGesturesEnabled(context)) {
+    public static void checkDozeService(Context context) {
+        if (isDozeEnabled(context) && !isAlwaysOnEnabled(context) && sensorsEnabled(context)) {
             startService(context);
         } else {
             stopService(context);
         }
-    }
-
-    protected static boolean isDozeEnabled(Context context) {
-        return Settings.Secure.getInt(context.getContentResolver(),
-                DOZE_ENABLED, 1) != 0;
     }
 
     protected static boolean getProxCheckBeforePulse(Context context) {
@@ -86,6 +78,11 @@ public final class DozeUtils {
     protected static boolean enableDoze(Context context, boolean enable) {
         return Settings.Secure.putInt(context.getContentResolver(),
                 DOZE_ENABLED, enable ? 1 : 0);
+    }
+
+    public static boolean isDozeEnabled(Context context) {
+        return Settings.Secure.getInt(context.getContentResolver(),
+                DOZE_ENABLED, 1) != 0;
     }
 
     protected static void launchDozePulse(Context context) {
@@ -121,17 +118,17 @@ public final class DozeUtils {
         return isGestureEnabled(context, GESTURE_PICK_UP_KEY);
     }
 
-    protected static boolean isHandwaveEnabled(Context context) {
+    protected static boolean isHandwaveGestureEnabled(Context context) {
         return isGestureEnabled(context, GESTURE_HAND_WAVE_KEY);
     }
 
-    protected static boolean isPocketEnabled(Context context) {
+    protected static boolean isPocketGestureEnabled(Context context) {
         return isGestureEnabled(context, GESTURE_POCKET_KEY);
     }
 
-    public static boolean areGesturesEnabled(Context context) {
-        return isPickUpEnabled(context) || isHandwaveEnabled(context)
-                || isPocketEnabled(context);
+    public static boolean sensorsEnabled(Context context) {
+        return isPickUpEnabled(context) || isHandwaveGestureEnabled(context)
+                || isPocketGestureEnabled(context);
     }
 
     protected static Sensor getSensor(SensorManager sm, String type) {
