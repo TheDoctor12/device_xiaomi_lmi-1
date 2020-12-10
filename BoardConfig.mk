@@ -1,5 +1,4 @@
 
-
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -129,6 +128,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_lmi
 BOARD_USES_METADATA_PARTITION := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+
+# Power
+TARGET_USES_INTERACTION_BOOST := true
 
 # Prebuilt Core
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
