@@ -19,7 +19,7 @@
         <value>9.48</value>
         <value>9.48</value>
     </array>
-    <item name="modem.controller.idle">0</item>
+    <item name="modem.controller.idle">0</item>3
     <item name="modem.controller.rx">0</item>
     <item name="modem.controller.tx">0</item>
     <item name="modem.controller.voltage">0</item>
@@ -152,7 +152,7 @@
     </array>
     <item name="cpu.awake">15.44</item>
     <item name="cpu.idle">6.48</item>
-    <item name="battery.capacity">3300</item>
+    <item name="battery.capacity">4700</item>
     <item name="wifi.controller.idle">0</item>
     <item name="wifi.controller.rx">0</item>
     <item name="wifi.controller.tx">0</item>
