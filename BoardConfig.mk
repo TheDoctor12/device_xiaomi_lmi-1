@@ -1,5 +1,3 @@
-
-
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -169,6 +167,9 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno650
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
+# Power
+TARGET_USES_INTERACTION_BOOST := true
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
