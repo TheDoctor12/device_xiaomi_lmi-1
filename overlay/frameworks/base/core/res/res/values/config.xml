@@ -735,7 +735,6 @@
         <item>9</item> <!-- COLOR_MODE_DISPLAY_P3 -->
     </integer-array>
     
-    
     <!-- Package name for the call-based number verification app -->
     <string name="platform_number_verification_package" translatable="false">com.google.android.gms</string>
     
@@ -778,9 +777,6 @@
     
      <!-- Enable Smart charging. -->
     <bool name="config_deviceSupportSmartCharging">true</bool>
-
-
-    <bool name="config_needCustomFODView">true</bool>
 
     <!-- Whether device supports in-display fingerprint when screen is turned off -->
     <bool name="config_supportsScreenOffInDisplayFingerprint">true</bool>
