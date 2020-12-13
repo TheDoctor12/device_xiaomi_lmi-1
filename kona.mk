@@ -160,9 +160,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
 
-# Recorder
+# Userstuff
 PRODUCT_PACKAGES += \
-    OPScreenRecorder
+    GCamUrnyx
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
