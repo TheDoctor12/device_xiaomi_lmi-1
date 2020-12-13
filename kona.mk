@@ -197,10 +197,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0
 
-# Touch
-PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.oneplus_kona
-
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
