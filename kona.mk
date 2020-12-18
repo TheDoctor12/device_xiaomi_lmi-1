@@ -59,12 +59,16 @@ PRODUCT_PACKAGES += \
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.qcom.rc \
-    init.recovery.qcom.rc
+    init.recovery.qcom.rc \
+    quantic-optimization.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/bin/init.quantic.postboot.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.quantic.postboot.sh
     
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts \
-    Xiaomi Doze
+    XiaomiDoze
 
 
 
@@ -151,7 +155,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi_kona
+    android.hardware.power@1.2-service.xiaomi_kona
 
 # PowerStats
 PRODUCT_PACKAGES += \
