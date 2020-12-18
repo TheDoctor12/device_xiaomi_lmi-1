@@ -60,10 +60,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
-    quantic-optimization.rc
+    quantic-optimization.rc\
+    dt2w.rc
+
+    
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/bin/init.quantic.postboot.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.quantic.postboot.sh
+    $(LOCAL_PATH)/rootdir/bin/init.quantic.postboot.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.quantic.postboot.sh\
+    $(LOCAL_PATH)/rootdir/bin/init.dt2w.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.dt2w.sh
     
 # Device-specific settings
 PRODUCT_PACKAGES += \
