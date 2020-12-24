@@ -227,6 +227,6 @@ BOARD_BUILD_PRODUCT_IMAGE := true
 PRODUCT_PACKAGES += \
     android.hardware.tetheroffload.config@1.0
 
-TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/google/gms/gms-vendor.mk)
-$(call inherit-product, vendor/google/pixel/pixel-vendor.mk)
+#TARGET_GAPPS_ARCH := arm64
+#$(call inherit-product, vendor/google/gms/gms-vendor.mk)
+#$(call inherit-product, vendor/google/pixel/pixel-vendor.mk)
