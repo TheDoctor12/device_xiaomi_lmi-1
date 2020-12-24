@@ -147,6 +147,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.lmi
 
 # Properties
+-include $(LOCAL_PATH)/product_prop.mk
 -include $(LOCAL_PATH)/system_prop.mk
 
 # Recorder

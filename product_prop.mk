@@ -17,7 +17,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.bluetooth.a2dp_offload.supported=false \
     persist.bluetooth.a2dp_offload.disabled=true \
     vendor.audio.feature.a2dp_offload.enable=false \
-    persist.vendor.qcom.bluetooth.enable.splita2dp=false
+    persist.vendor.qcom.bluetooth.enable.splita2dp=false \
+    ro.config.media_vol_steps=25 \
+    ro.config.vc_call_vol_steps=7 \
+    debug.stagefright.omx_default_rank.sw-audio=16 \
+    ro.control_privapp_permissions=log \
+    persist.vendor.bt.a2dp.aac_whitelist=false
 
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -26,10 +31,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
     vendor.camera.aux.packagelist=org.lineageos.snap,net.sourceforge.opencamera,com.google.android.GoogleCamera
-
-# Telephony
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.telephony.default_network=22,22 \
-    persist.dbg.volte_avail_ovr=1 \
-    persist.dbg.vt_avail_ovr=1 \
-    persist.dbg.wfc_avail_ovr=1 
