@@ -191,6 +191,7 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
+    TetheringConfigOverlay \
     WifiOverlay
 
 # WiFi Tethering
