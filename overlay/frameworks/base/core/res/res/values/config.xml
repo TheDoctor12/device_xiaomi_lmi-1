@@ -112,13 +112,6 @@
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
 
-    <!-- Integer parameters of the wifi to cellular handover feature
-         wifi should not stick to bad networks -->
-    <integer name="config_wifi_framework_wifi_score_bad_rssi_threshold_24GHz">-83</integer>
-    <integer name="config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz">-80</integer>
-    <integer name="config_wifi_framework_wifi_score_low_rssi_threshold_24GHz">-73</integer>
-    <integer name="config_wifi_framework_wifi_score_low_rssi_threshold_5GHz">-70</integer>
-
     <!-- Fast brightness animation ramp rate in brightness units per second-->
      <integer name="config_brightness_ramp_rate_fast">180</integer>
 
@@ -131,10 +124,6 @@
          Note that doze dreams are not subject to the same start conditions as ordinary dreams.
          Doze dreams will run whenever the power manager is in a dozing state. -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
-
-    <!-- Configure wifi tcp buffersizes in the form:
-         rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
-    <string name="config_wifi_tcp_buffers">524288,1048576,8808040,262144,524288,6710886</string>
 
     <!-- Regex of wired ethernet ifaces -->
     <string name="config_ethernet_iface_regex">eth\\d</string>
@@ -311,12 +300,6 @@
 
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
-
-    <!-- Enable ACS (auto channel selection) for Wifi hotspot (SAP) -->
-    <bool name="config_wifi_softap_acs_supported">true</bool>
-
-    <!-- Enable 802.11ac for Wifi hotspot (SAP) -->
-    <bool name="config_wifi_softap_ieee80211ac_supported">true</bool>
 
     <!-- If true, the display will be shifted around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>

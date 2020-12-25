@@ -189,6 +189,10 @@ BOARD_BUILD_PRODUCT_IMAGE := true
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0
 
+# WiFi
+PRODUCT_PACKAGES += \
+    WifiOverlay
+
 # WiFi Tethering
 PRODUCT_PACKAGES += \
     android.hardware.tetheroffload.config@1.0
