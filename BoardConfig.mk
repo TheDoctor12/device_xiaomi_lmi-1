@@ -79,7 +79,7 @@ BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 
 
 # ANT+
-#BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
+BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
