@@ -19,7 +19,7 @@
         <value>9.48</value>
         <value>9.48</value>
     </array>
-    <item name="modem.controller.idle">0</item>3
+    <item name="modem.controller.idle">0</item>
     <item name="modem.controller.rx">0</item>
     <item name="modem.controller.tx">0</item>
     <item name="modem.controller.voltage">0</item>
