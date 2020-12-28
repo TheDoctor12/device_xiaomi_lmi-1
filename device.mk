@@ -177,8 +177,8 @@ PRODUCT_COPY_FILES += \
 
 
 # Userstuff
-PRODUCT_PACKAGES += \
-    GCamUrnyx
+#PRODUCT_PACKAGES += \
+ #   GCamUrnyx
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
