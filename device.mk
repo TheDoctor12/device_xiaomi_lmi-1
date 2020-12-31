@@ -158,9 +158,7 @@ PRODUCT_PACKAGES += \
 
 # Properties
 -include $(LOCAL_PATH)/product.prop
--include $(LOCAL_PATH)/product_prop.mk
 -include $(LOCAL_PATH)/system.prop
--include $(LOCAL_PATH)/system_prop.mk
 
 # Recorder
 PRODUCT_PACKAGES += \
