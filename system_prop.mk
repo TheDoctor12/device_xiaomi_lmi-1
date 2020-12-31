@@ -5,18 +5,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24 \
     qcom.hw.aac.encoder=true
 
-# Bluetooth
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.bt.a2dp.aac_whitelist=false \
-    ro.bluetooth.library_name=libbluetooth_qti.so \
-    persist.vendor.btstack.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aptxadaptive-aac-ldac \
-    persist.vendor.btstack.enable.splita2dp=true \
-    persist.vendor.btstack.enable.twsplus=true \
-    persist.vendor.btstack.enable.twsplussho=true \
-    vendor.bluetooth.soc=hastings \
-    ro.bluetooth.emb_wp_mode=true \
-    ro.bluetooth.wipower=true
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_zsl_mode=true
