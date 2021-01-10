@@ -160,10 +160,6 @@ PRODUCT_PACKAGES += \
 -include $(LOCAL_PATH)/product.prop
 -include $(LOCAL_PATH)/system.prop
 
-# Recorder
-PRODUCT_PACKAGES += \
-    OPScreenRecorder
-
 # Signapk
 PRODUCT_HOST_PACKAGES += \
     signapk
