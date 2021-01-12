@@ -134,3 +134,6 @@ debug.composition.type=c2d
 persist.sys.composition.type=c2d
 debug.performance.tuning=1
 
+# GBoard Spacing
+ro.com.google.ime.kb_pad_port_b=1
+
