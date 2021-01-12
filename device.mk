@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     Snap
 
+# Configstore
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.capabilityconfigstore@1.0
+
 # Cryptfs
 PRODUCT_PACKAGES += \
     libcryptfs_hw \

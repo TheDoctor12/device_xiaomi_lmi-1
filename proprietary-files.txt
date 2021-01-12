@@ -513,7 +513,6 @@ system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8250.so
 system_ext/lib/vendor.qti.diaghal@1.0.so
 system_ext/lib/vendor.qti.hardware.alarm@1.0.so
 system_ext/lib/vendor.qti.hardware.camera.device@3.5.so
-system_ext/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
 system_ext/lib/vendor.qti.hardware.cvp@1.0-adapter-helper.so
 system_ext/lib/vendor.qti.hardware.cvp@1.0.so
 system_ext/lib/vendor.qti.hardware.dsp@1.0.so
@@ -636,7 +635,6 @@ system_ext/lib64/libvr_object_engine.so
 system_ext/lib64/libvr_sam_wrapper.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 system_ext/lib64/vendor.qti.hardware.alarm@1.0.so
-system_ext/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 system_ext/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so
 system_ext/lib64/vendor.qti.hardware.cvp@1.0.so
 system_ext/lib64/vendor.qti.hardware.dsp@1.0.so
