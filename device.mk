@@ -78,7 +78,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
-    dt2w.tc
+    dt2w.rc
     
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/bin/init.dt2w.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.dt2w.sh
