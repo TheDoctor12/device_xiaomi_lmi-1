@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/lmi/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
+# LegionOS Device Maintainers
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.maintainer.name=AbdullahPS
+    
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := legion_lmi
 PRODUCT_DEVICE := lmi
