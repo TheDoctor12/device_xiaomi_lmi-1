@@ -184,9 +184,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.mock
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service.lmi
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
