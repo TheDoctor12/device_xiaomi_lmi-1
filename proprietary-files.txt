@@ -113,6 +113,12 @@ system_ext/lib64/vendor.qti.gnss@2.1.so
 system_ext/lib64/vendor.qti.gnss@3.0.so
 system_ext/lib64/vendor.qti.gnss@4.0.so
 
+# HotwordEnrollment
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+-system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # Latency
 -system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
 -system_ext/framework/vendor.qti.latency-V2.0-java.jar
@@ -376,7 +382,6 @@ system_ext/etc/init/perfservice.rc
 system_ext/etc/init/qspmsvc.rc
 system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.0-service.rc
 system_ext/etc/permissions/android.software.verified_boot.xml
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/etc/permissions/com.qti.media.secureprocessor.xml
 system_ext/etc/permissions/com.qualcomm.qmapbridge.xml
 system_ext/etc/permissions/com.qualcomm.qti.izattools.xml
@@ -415,7 +420,6 @@ system_ext/etc/seccomp_policy/wfdservice.policy
 system_ext/etc/spn-conf.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
 -system_ext/framework/ActivityExt.jar
--system_ext/framework/com.android.hotwordenrollment.common.util.jar
 -system_ext/framework/com.qti.media.secureprocessor.jar
 -system_ext/framework/qmapbridge.jar
 -system_ext/framework/qti-telephony-hidl-wrapper.jar
