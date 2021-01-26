@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_lmi.mk
+    $(LOCAL_DIR)/aosp_lmi.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_lmi-user \
-    legion_lmi-userdebug \
-    legion_lmi-eng
+    aosp_lmi-user \
+    aosp_lmi-userdebug \
+    aosp_lmi-eng
