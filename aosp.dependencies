@@ -1,0 +1,13 @@
+[
+  { 
+    "remote"       : "lineage",  
+    "repository"   : "android_hardware_xiaomi",
+    "target_path"  : "hardware/xiaomi"
+  },
+  { 
+    "remote"       : "github",
+    "repository"   : "RealSchnedi/vendor_xiaomi_lmi",
+    "target_path"  : "vendor/xiaomi/lmi",
+    "branch"       : "11"
+  }
+]
