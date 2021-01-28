@@ -1,9 +1,14 @@
 [
-  
-        { 
-        "remote"       : "github",
-        "repository"   : "LineageOS/android_hardware_xiaomi.git",
-        "target_path"  : "hardware/xiaomi",
-        "branch"       : "lineage-18.0"
-    }    
+  { 
+    "remote":      "github",
+    "repository":  "AbdullahTabbal/vendor_xiaomi_lmi",
+    "target_path": "vendor/xiaomi/lmi",
+    "branch":      "eleven"
+  },
+  { 
+    "remote":      "github",
+    "repository":  "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch":      "lineage-18.1"
+  }    
 ]
