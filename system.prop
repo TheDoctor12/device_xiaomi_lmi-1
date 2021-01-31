@@ -90,6 +90,9 @@ ro.netflix.bsp_rev=Q8250-19134-1
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
 
+# OpenGL
+debug.hwui.renderer=skiagl
+
 # Perf
 ro.vendor.qti.core_ctl_max_cpu=4
 ro.vendor.qti.core_ctl_min_cpu=2
@@ -139,9 +142,6 @@ debug.sf.early_gl_app_phase_offset_ns=15000000
 # Touchscreen
 persist.vendor.qti.inputopts.enable=true
 persist.vendor.qti.inputopts.movetouchslop=0.6
-
-# Vulkan
-debug.hwui.renderer=skiavk
 
 # Vendor
 ro.vendor.qti.va_aosp.support=1
