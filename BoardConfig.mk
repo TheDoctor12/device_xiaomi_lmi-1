@@ -86,6 +86,9 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.kona
 TARGET_USES_FOD_ZPOS := true
 
+# FOD key for InputDispatcher to skip
+TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 338
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
