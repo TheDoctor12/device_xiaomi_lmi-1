@@ -19,3 +19,6 @@ persist.vendor.qcom.bluetooth.enable.splita2dp=false
 
 # Camera
 vendor.camera.aux.packagelist=org.lineageos.snap,net.sourceforge.opencamera,com.google.android.GoogleCamera
+
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
