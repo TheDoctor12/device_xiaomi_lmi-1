@@ -19,3 +19,6 @@ persist.vendor.qcom.bluetooth.enable.splita2dp=false
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
+
+# Camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.android.camera2,org.lineageos.snap
