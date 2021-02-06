@@ -32,6 +32,8 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio@6.0-impl \
+    android.hardware.audio.effect@6.0-impl \
     audio.a2dp.default \
     libaacwrapper \
     vendor.qti.hardware.audiohalext@1.0
