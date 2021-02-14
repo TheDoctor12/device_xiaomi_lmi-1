@@ -78,7 +78,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libvulkan \
-    vendor.display.config@1.0
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0_vendor
 
 # Fastbootd
 PRODUCT_PACKAGES += \
