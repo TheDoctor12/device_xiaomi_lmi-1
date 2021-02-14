@@ -217,7 +217,7 @@ BOARD_BUILD_PRODUCT_IMAGE := true
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0
+    android.hardware.thermal@2.0-service.qti
 
 # WiFi
 PRODUCT_PACKAGES += \
