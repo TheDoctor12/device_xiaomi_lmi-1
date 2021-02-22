@@ -19,6 +19,7 @@ android_app {
         "androidx.core_core",
         "androidx.preference_preference",
         "org.lineageos.settings.resources",
+        "org.pixelexperience.settings.resources_custom",
         "vendor.xiaomi.hardware.displayfeature-V1.0-java",
         "vendor.xiaomi.hardware.motor-V1.0-java",
         "vendor.xiaomi.hardware.touchfeature-V1.0-java",
