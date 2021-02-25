@@ -55,6 +55,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Cryptfs
+PRODUCT_PACKAGES += \
+    libcryptfs_hw \
+    vendor.qti.hardware.cryptfshw@1.0
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts

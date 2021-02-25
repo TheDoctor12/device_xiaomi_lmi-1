@@ -576,7 +576,6 @@ system_ext/lib64/libbluetooth_qti.so
 system_ext/lib64/libbt-logClient.so
 system_ext/lib64/libbtconfigstore.so
 system_ext/lib64/libcdsprpc_system.so
-system_ext/lib64/libcryptfs_hw.so
 system_ext/lib64/libcvpcpuRev_skel_system.so
 system_ext/lib64/libcvp_common_system.so
 system_ext/lib64/libdashdatasource.so
@@ -647,7 +646,6 @@ system_ext/lib64/vendor.qti.diaghal@1.0.so
 system_ext/lib64/vendor.qti.hardware.alarm@1.0.so
 system_ext/lib64/vendor.qti.hardware.audiohalext@1.0.so
 system_ext/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
-system_ext/lib64/vendor.qti.hardware.cryptfshw@1.0.so
 system_ext/lib64/vendor.qti.hardware.cvp@1.0-adapter-helper.so
 system_ext/lib64/vendor.qti.hardware.cvp@1.0.so
 system_ext/lib64/vendor.qti.hardware.dsp@1.0.so
