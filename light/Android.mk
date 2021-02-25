@@ -18,4 +18,3 @@ LOCAL_SHARED_LIBRARIES := \
         android.hardware.light@2.0
 
 include $(BUILD_SHARED_LIBRARY)
-

@@ -13,7 +13,6 @@ system_ext/etc/permissions/audiosphere.xml
 #product/lib64/libaptX_encoder.so
 #product/lib64/libaptXHD_encoder.so
 
-
 # CNE
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
@@ -120,7 +119,6 @@ system_ext/lib/vendor.qti.latency@2.0.so
 system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so
 system_ext/lib64/vendor.qti.latency@2.0.so
 
-
 # Media
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
@@ -133,9 +131,6 @@ system_ext/lib64/libmmrtpdecoder.so
 system_ext/lib64/libmmrtpencoder.so
 system_ext/lib64/vendor.qti.hardware.vpp@1.1.so
 
-
-
-
 # Perf
 system_ext/etc/perf/wlc_model.tflite
 system_ext/lib/libqti-perfd-client_system.so
@@ -146,7 +141,6 @@ system_ext/lib64/libqti-perfd-client_system.so
 system_ext/lib64/libqti-util_system.so
 system_ext/lib64/libqti_performance.so
 system_ext/lib64/vendor.qti.hardware.perf@2.0.so
-
 
 # Postprocessing
 system_ext/lib/vendor.display.color@1.0.so
@@ -160,12 +154,9 @@ system_ext/lib64/vendor.display.color@1.2.so
 system_ext/lib64/vendor.display.color@1.3.so
 system_ext/lib64/vendor.display.postproc@1.0.so
 
-
-
 # QMI
 system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
-
 
 # Radio
 etc/permissions/privapp-permissions-qti.xml
@@ -180,7 +171,6 @@ system_ext/etc/permissions/telephonyservice.xml
 -system_ext/framework/qcrilhook.jar
 -system_ext/framework/qti-telephony-common.jar
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-
 
 # Radio-IMS
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
@@ -249,9 +239,6 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 -system_ext/priv-app/ims/ims.apk
 
-
-
-
 # SCVE
 system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
 system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
@@ -261,7 +248,6 @@ system_ext/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
 system_ext/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so
 system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
 system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0.so
-
 
 # WFD
 -framework/WfdCommon.jar
@@ -304,8 +290,6 @@ system_ext/lib64/libwfduibcsrcinterface.so
 system_ext/priv-app/WfdService/lib/arm64/libwfdnative.so
 -system_ext/priv-app/WfdService/WfdService.apk
 
-
-
 # WiFi
 bin/iwpriv
 
@@ -347,7 +331,6 @@ lib64/vendor.xiaomi.hardware.misys@3.0.so
 lib64/vendor.xiaomi.hardware.vibratorfeature@1.0.so
 system_ext/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 system_ext/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
-
 
 # Misc
 -system_ext/app/atfwd/atfwd.apk

@@ -60,4 +60,3 @@ extern "C" ILight* HIDL_FETCH_ILight(const char* name);
 }  // namespace android
 
 #endif  // ANDROID_HARDWARE_LIGHT_V2_0_LIGHT_H
-

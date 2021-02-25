@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lineage.biometrics.fingerprint.inscreen@1.0-service.lmi
 
-
 # FIXME: master: compat for libprotobuf
 # See https://android-review.googlesource.com/c/platform/prebuilts/vndk/v28/+/1109518
 PRODUCT_PACKAGES += \
@@ -134,7 +133,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-lmi
 
 # overlay-remove
 PRODUCT_PACKAGES += \
@@ -186,3 +185,7 @@ BOARD_BUILD_PRODUCT_IMAGE := true
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0
+
+# WiFi Tethering
+PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.config@1.0
