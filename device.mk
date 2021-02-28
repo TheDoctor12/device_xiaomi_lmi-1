@@ -88,7 +88,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    lineage.biometrics.fingerprint.inscreen@1.0-service.lmi
+    lineage.biometrics.fingerprint.inscreen@1.0-service.kona
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
