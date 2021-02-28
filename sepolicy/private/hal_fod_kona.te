@@ -1,0 +1,31 @@
+type hal_fod_kona, coredomain, domain;
+hal_server_domain(hal_fod_kona, hal_lineage_fod)
+
+type hal_fod_kona_exec, exec_type, system_file_type, file_type;
+init_daemon_domain(hal_fod_kona)
+
+binder_call(hal_fod_kona, hal_displayfeature_xiaomi_default)
+
+allow hal_fod_kona hal_displayfeature_xiaomi_hwservice:hwservice_manager find;
+
+binder_call(hal_fod_kona, hal_touchfeature_xiaomi_default)
+
+allow hal_fod_kona hal_touchfeature_xiaomi_hwservice:hwservice_manager find;
+
+allow hal_fod_kona hal_fingerprint_hwservice_xiaomi:hwservice_manager find;
+
+allow hal_fod_kona sysfs_tp_fodstatus:file rw_file_perms;
+
+hal_client_domain(hal_fod_kona, hal_fingerprint)
+
+wakelock_use(hal_fod_kona)
+
+allow hal_fod_kona sysfs_graphics:file {read write getattr open};
+allow hal_fod_kona sysfs_graphics:dir {search};
+allow hal_fod_kona sysfs_graphics:lnk_file {read};
+
+allow hal_fod_kona sysfs_graphics:dir{search};
+allow hal_fod_kona sysfs_graphics:file{read open getattr};
+
+allow hal_fod_kona vendor_sysfs_graphics:dir{search};
+allow hal_fod_kona vendor_sysfs_graphics:file{read open getattr};
