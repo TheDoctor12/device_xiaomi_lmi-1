@@ -53,7 +53,6 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.camera.device@1.0 \
     Snap
 
 PRODUCT_COPY_FILES += \
