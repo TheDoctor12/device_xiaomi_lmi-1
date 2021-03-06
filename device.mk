@@ -271,6 +271,10 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
-# WiFi Tethering
+# WiFi Display
 PRODUCT_PACKAGES += \
-    android.hardware.tetheroffload.config@1.0
+    libnl \
+    libwfdaac_vendor
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
