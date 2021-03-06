@@ -105,11 +105,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
-# FIXME: master: compat for libprotobuf
-# See https://android-review.googlesource.com/c/platform/prebuilts/vndk/v28/+/1109518
-PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-vendorcompat
-
 # fstab for ramdisk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
@@ -202,6 +197,13 @@ PRODUCT_PACKAGES += \
 # Properties
 -include $(LOCAL_PATH)/product.prop
 -include $(LOCAL_PATH)/system.prop
+
+# RIL
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
+    libprotobuf-cpp-full-vendorcompat \
+    librmnetctl \
+    libxml2
 
 # Signapk
 PRODUCT_HOST_PACKAGES += \
