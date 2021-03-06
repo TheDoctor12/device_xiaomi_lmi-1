@@ -215,6 +215,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     vendor/nxp/opensource/sn100x
 
+# System Helper
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.systemhelper@1.0
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
