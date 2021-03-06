@@ -142,6 +142,12 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc
 
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml \
+    libipanat
+
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl.xiaomi_kona
