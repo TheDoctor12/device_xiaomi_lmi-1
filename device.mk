@@ -247,6 +247,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-qti
 
+# Vibrator HAL
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # WiFi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
