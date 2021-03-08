@@ -70,7 +70,10 @@ ro.com.google.ime.kb_pad_port_b=1
 debug.sf.disable_backpressure=1
 debug.sf.latch_unsignaled=1
 debug.sf.enable_hwc_vds=1
-debug.cpurend.vsync=false
+debug.sf.high_fps_early_phase_offset_ns=6100000
+debug.sf.high_fps_early_gl_phase_offset_ns=6500000
+debug.sf.high_fps_late_app_phase_offset_ns=1000000
+debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000
 
 # IMS
 persist.dbg.volte_avail_ovr=1
