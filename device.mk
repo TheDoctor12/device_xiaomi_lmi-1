@@ -18,6 +18,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/lmi/lmi-vendor.mk)
 
+# MIUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
 PRODUCT_BUILD_SUPER_PARTITION := false
 BOARD_BUILD_PRODUCT_IMAGE := true
 PRODUCT_SHIPPING_API_LEVEL := 29

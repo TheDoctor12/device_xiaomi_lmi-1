@@ -156,6 +156,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
+-include vendor/xiaomi/miuicamera/BoardConfigVendor.mk #MIUICamera with enforced selinux
 
 SELINUX_IGNORE_NEVERALLOWS := true
 
