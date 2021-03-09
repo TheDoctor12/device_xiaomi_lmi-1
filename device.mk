@@ -178,10 +178,9 @@ PRODUCT_PACKAGES += \
     vendor.nxp.hardware.nfc@1.1 \
     vendor.nxp.hardware.nfc@2.0
 
-# Overlays
+# Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lmi
+    $(LOCAL_PATH)/overlay
 
 # overlay-remove
 PRODUCT_PACKAGES += \
