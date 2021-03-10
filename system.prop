@@ -244,5 +244,6 @@ sys.usb.rndis.func.name=rndis_bam
 telephony.lteOnCdmaDevice=1
 tunnel.audio.encode=true
 use.voice.path.for.pcm.voip=true
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.xiaomi.runin,com.xiaomi.cameratest,com.xiaomi.factory.mmi
 vendor.gatekeeper.disable_spu=true
 vendor.hbm.enable=true
