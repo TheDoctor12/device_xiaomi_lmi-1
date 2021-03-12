@@ -93,8 +93,8 @@ vendor.mm.enable.qcom_parser=131071999
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
 
-# Netflix
-ro.netflix.bsp_rev=Q8250-19134-1
+# Netflix custom property
+ro.netflix.bsp_rev=Q845-05000-1
 
 # Netmgr
 persist.vendor.data.iwlan.enable=true
