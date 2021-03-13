@@ -8,6 +8,13 @@ on boot
 on early-init
     write /sys/fs/selinux/enforce 0
 
+on late-init
+    start surfaceflinger
+    start bootanim
+    start vendor.hwcomposer-2-4
+    start vendor.configstore-hal
+    start vendor.qti.hardware.display.allocator
+
 on post-fs-data
     mount none dev/null /vendor/lib/soundfx/libvolumelistener.so bind
     mount none dev/null /vendor/lib64/soundfx/libvolumelistener.so bind
