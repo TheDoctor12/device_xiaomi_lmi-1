@@ -177,7 +177,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # overlay-remove
 PRODUCT_PACKAGES += \
-    DevicesOverlay \
     FrameworksResTarget \
     DevicesAndroidOverlay
 
