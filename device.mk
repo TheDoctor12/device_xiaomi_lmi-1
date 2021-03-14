@@ -212,7 +212,6 @@ PRODUCT_HOST_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi \
     vendor/nxp/opensource/sn100x
 
 # System Helper
