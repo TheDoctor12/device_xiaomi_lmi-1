@@ -18,6 +18,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
 
+PRODUCT_CHARACTERISTICS := nosdcard
+
 # MIUI Camera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
