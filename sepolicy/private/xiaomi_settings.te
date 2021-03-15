@@ -46,3 +46,4 @@ allow xiaomi_settings sysfs_leds:dir search;
 allow xiaomi_settings sysfs_leds:file rw_file_perms;
 
 allow xiaomi_settings sysfs_thermal:file w_file_perms;
+allow xiaomi_settings vendor_hal_qspmhal_default : binder {call};
